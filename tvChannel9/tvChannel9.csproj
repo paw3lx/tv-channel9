@@ -101,6 +101,10 @@
     <Compile Include="Classes\VideoDataSource.cs" />
     <Compile Include="Classes\VideoItem.cs" />
     <Compile Include="Classes\VideoViewDelegate.cs" />
+    <Compile Include="VideoPlayerViewController.cs" />
+    <Compile Include="VideoPlayerViewController.designer.cs">
+      <DependentUpon>VideoPlayerViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />

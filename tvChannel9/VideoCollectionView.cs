@@ -53,6 +53,12 @@ namespace tvChannel9
 				});
 			}
 		}
+
 		#endregion
+
+        public void StartPlayback(VideoItem item)
+        {
+            ParentController.PlayStream(item);
+        }
 	}
 }

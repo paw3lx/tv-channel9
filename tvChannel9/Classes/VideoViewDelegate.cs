@@ -28,22 +28,14 @@ namespace tvChannel9.Classes
 
 		public override bool CanFocusItem(UICollectionView collectionView, NSIndexPath indexPath)
 		{
-			if (indexPath == null)
-			{
-				return false;
-			}
-			else
-			{
-                return true;
-			}
+            return indexPath != null;
 		}
 
 		public override void ItemSelected(UICollectionView collectionView, NSIndexPath indexPath)
 		{
-            //var controller = collectionView as VideoCollectionView;
-			//App.SelectedVideo = controller.Source.Cities[indexPath.Row];
-
-            //controller.ParentController.NavigationController.PushViewController(new VideoPlayerViewController(Handle), false);
+            var controller = collectionView as VideoCollectionView;
+            var selectedVideo =  controller.Source.Videos[indexPath.Row];
+            controller.StartPlayback(selectedVideo);
 		}
 
 		#endregion

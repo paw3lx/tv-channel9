@@ -77,16 +77,15 @@
             </objects>
             <point key="canvasLocation" x="2331" y="-683"/>
         </scene>
+        <scene sceneID="1160">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="1161" sceneMemberID="viewController" customClass="VideoPlayerViewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1162" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4440" y="400"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="Video01.jpg" width="640" height="385"/>
-        <image name="Video03.jpg" width="640" height="426"/>
-        <image name="Video04.jpg" width="640" height="426"/>
-        <image name="Video05.jpg" width="640" height="427"/>
-        <image name="Video06.jpg" width="640" height="399"/>
-        <image name="Video07.jpg" width="640" height="400"/>
-        <image name="Video08.jpg" width="640" height="425"/>
-        <image name="Video09.jpg" width="640" height="423"/>
         <image name="Video10.jpg" width="640" height="426"/>
         <image name="Video11.jpg" width="640" height="423"/>
         <image name="Video12.jpg" width="640" height="466"/>
